@@ -25,11 +25,11 @@ const createUsers= async(args)=>{
         return User.create(args)
 
 }
-const deleteUser = async(id)=>{
-    return User.destroy({
-        where: {id: id}
-    })
-}
+// const deleteUser = async(id)=>{
+//     return User.destroy({
+//         where: {id: id}
+//     })
+// }
 module.exports={
-    getUserById,getAllUser,createUsers,deleteUser
+    getUserById,getAllUser,createUsers
 }
