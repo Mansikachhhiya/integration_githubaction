@@ -7,7 +7,7 @@ on:
   push:
     branches: [ "feature/Deleteapi" ]
   pull_request:
-    branches: [ "develop" ]
+    branches: [ "master" ]
 
 jobs:
   build:
