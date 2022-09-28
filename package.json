@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:unit": "jest -- forceExit",
-    "test:integration": "jest -c jest.integartion.config.js --forceExit",
+    "test:unit": "jest",
+    "test:integration": "jest -c jest.integrationTest.config.js --forceExit",
     "test": "npm run test:unit && npm run test:integration",
     "pretest": "cross-env NODE_ENV=test npm run db:reset",
     "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
