@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:unit": "jest ",
+    "test:unit": "jest  --forceExit",
     "test:integration": "jest -c jest.integartion.config.js --forceExit",
     "test": "npm run test:unit && npm run test:integration",
     "pretest": "cross-env NODE_ENV=test npm run db:reset",
