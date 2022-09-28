@@ -4,6 +4,10 @@
 name: merge request on testing
 
 on:
+  # Trigger on Pull Requests to the master branch.
+  push:
+    branches:
+      - feature/create-api
   # Trigger on pull request against mater branch
   pull_request_target:
     branches:
@@ -11,10 +15,7 @@ on:
     types:
       - opened
       - synchronize
-    # Trigger on Pull Requests to the master branch.
-    push:
-      branches:
-        - feature/create-api
+
 
 jobs:
   build:
