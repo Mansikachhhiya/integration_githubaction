@@ -1,13 +1,20 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: pull request for unit test
+name: merge request on testing
 
 on:
-#  push:
-#    branches: [ "feature/create-api" ]
-  pull_request:
-    branches: [ "master" ]
+  # Trigger on pull request against mater branch
+  pull_request_target:
+    branches:
+      - master
+    types:
+      - opened
+      - synchronize
+    # Trigger on Pull Requests to the master branch.
+    push:
+      branches:
+        - feature/create-api
 
 jobs:
   build:
@@ -21,6 +28,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        # This adds support for both `pull_request_target` and `push` events.
+        ref: ${{ github.event.pull_request.head.sha || github.sha }}
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
@@ -32,3 +42,26 @@ jobs:
       run: docker-compose up -d
     - name: run unit test
       run: npm test
+
+merge-me:
+  name: merge me!
+  needs:
+  # List all required job names here.
+    - build:
+  runs-on: ubuntu latest
+  steps:
+    - name: merge me!
+      uses: ridedott/merge-me-action@v2
+      with:
+        # Depending on branch protection rules, a  manually populated
+        # `GITHUB_TOKEN_WORKAROUND` secret with permissions to push to
+        # a protected branch must be used. This secret can have an arbitrary
+        # name, as an example, this repository uses `DOTTBOTT_TOKEN`.
+        #
+        # When using a custom token, it is recommended to leave the following
+        # comment for other developers to be aware of the reasoning behind it:
+        #
+        # This must be used as GitHub Actions token does not support pushing
+        # to protected branches.
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        timeout-minutes: 5
