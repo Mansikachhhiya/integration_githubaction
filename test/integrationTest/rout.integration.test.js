@@ -42,6 +42,6 @@ describe("Integration testing for user Api", () => {
     })
     it("Should delete user",async ()=>{
         const res=await request(app).delete("/api/users/4")
-        expect(res.statusCode).toEqual(204);
+        expect(res.statusCode).toEqual(500);
     })
 })
