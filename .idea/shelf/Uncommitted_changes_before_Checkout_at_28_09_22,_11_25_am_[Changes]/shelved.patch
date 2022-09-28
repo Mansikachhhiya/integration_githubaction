@@ -1,0 +1,18 @@
+Index: jest.config.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>module.exports={\n    setupFilesAfterEnv: [\"./jest.setup.js\"],\n   testMatch:[\n       '<rootDir>/test/*.test.js'\n   ]\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/jest.config.js b/jest.config.js
+--- a/jest.config.js	(revision db4248ed21c8755aa462e3d591a7f4c02feb8657)
++++ b/jest.config.js	(date 1664344525440)
+@@ -2,5 +2,6 @@
+     setupFilesAfterEnv: ["./jest.setup.js"],
+    testMatch:[
+        '<rootDir>/test/*.test.js'
+-   ]
++   ],
++    testPathIgnorePatterns:["test/integrationTest"]
+ }

@@ -1,0 +1,19 @@
+Index: .github/workflows/node.js.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node\n# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions\n\nname: merge request on testing\n\non:\n  # Trigger on pull request against mater branch\n  pull_request_target:\n    branches:\n      - master\n    types:\n      - opened\n      - synchronize\n    # Trigger on Pull Requests to the master branch.\n    push:\n      branches:\n        - feature/create-api\n\njobs:\n  build:\n\n    runs-on: ubuntu-latest\n\n    strategy:\n      matrix:\n        node-version: [14.x, 16.x, 18.x]\n        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/\n\n    steps:\n    - uses: actions/checkout@v3\n      with:\n        # This adds support for both `pull_request_target` and `push` events.\n        ref: ${{ github.event.pull_request.head.sha || github.sha }}\n    - name: Use Node.js ${{ matrix.node-version }}\n      uses: actions/setup-node@v3\n      with:\n        node-version: ${{ matrix.node-version }}\n        cache: 'npm'\n    - name: install dependencies\n      run: npm install\n    - name: docker up for run postgres\n      run: docker-compose up -d\n    - name: run unit test\n      run: npm test\n\nmerge-me:\n  name: merge me!\n  needs:\n  # List all required job names here.\n    - build:\n  runs-on: ubuntu latest\n  steps:\n    - name: merge me!\n      uses: ridedott/merge-me-action@v2\n      with:\n        # Depending on branch protection rules, a  manually populated\n        # `GITHUB_TOKEN_WORKAROUND` secret with permissions to push to\n        # a protected branch must be used. This secret can have an arbitrary\n        # name, as an example, this repository uses `DOTTBOTT_TOKEN`.\n        #\n        # When using a custom token, it is recommended to leave the following\n        # comment for other developers to be aware of the reasoning behind it:\n        #\n        # This must be used as GitHub Actions token does not support pushing\n        # to protected branches.\n        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}\n        timeout-minutes: 5
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.github/workflows/node.js.yml b/.github/workflows/node.js.yml
+--- a/.github/workflows/node.js.yml	(revision b8cebdb9ed972ea01907e8189d1e8ed9ccb6720f)
++++ b/.github/workflows/node.js.yml	(date 1664357341684)
+@@ -7,7 +7,7 @@
+   # Trigger on pull request against mater branch
+   pull_request_target:
+     branches:
+-      - master
++      -
+     types:
+       - opened
+       - synchronize

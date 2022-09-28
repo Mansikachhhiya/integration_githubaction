@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31e1f59f-dc65-4456-98b9-de2c55630efb" name="Changes" comment="merge me added">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/node.js.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dbConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/data/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/clover.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/coverage-final.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/block-navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/integration_testcase_githubaction/controllers/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/integration_testcase_githubaction/controllers/index.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/integration_testcase_githubaction/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/integration_testcase_githubaction/index.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/integration_testcase_githubaction/models/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/integration_testcase_githubaction/models/index.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/integration_testcase_githubaction/models/product.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/integration_testcase_githubaction/models/user.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/integration_testcase_githubaction/routes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/integration_testcase_githubaction/routes/index.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/lcov.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20220916104847-create-user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20220916105218-create-product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeders/20220916093633-users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeders/20220916114530-items.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/base.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/route.test.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value=".*" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FLY6AGJSonsQflsv79786L2J4W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mansi/WebstormProjects/integration_githubaction/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/home/mansi/WebstormProjects/integration_githubaction/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/integrationTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Integration testing for user Api">
+    <configuration name="Integration testing for user Api" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/node-v14.15.0-linux-x64/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/test/route.integration.test.js" />
+      <test-names>
+        <test-name value="Integration testing for user Api" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Integration testing for user Api.Should delete user (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/node-v14.15.0-linux-x64/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/integrationTest/route.integration.test.js" />
+      <test-names>
+        <test-name value="Integration testing for user Api" />
+        <test-name value="Should delete user" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Integration testing for user Api.Should delete user" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="$APPLICATION_CONFIG_DIR$/node/node-v14.15.0-linux-x64/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/test/route.integration.test.js" />
+      <test-names>
+        <test-name value="Integration testing for user Api" />
+        <test-name value="Should delete user" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Integration testing for user Api.Should delete user (1)" />
+        <item itemvalue="Jest.Integration testing for user Api.Should delete user" />
+        <item itemvalue="Jest.Integration testing for user Api" />
+        <item itemvalue="Jest.Integration testing for user Api.Should delete user (1)" />
+        <item itemvalue="Jest.Integration testing for user Api.Should delete user" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31e1f59f-dc65-4456-98b9-de2c55630efb" name="Changes" comment="" />
+      <created>1664272654028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664272654028</updated>
+      <workItem from="1664272655240" duration="8970000" />
+      <workItem from="1664339587375" duration="125000" />
+      <workItem from="1664339732427" duration="694000" />
+      <workItem from="1664340480143" duration="5029000" />
+      <workItem from="1664349137966" duration="20000" />
+      <workItem from="1664349164794" duration="4577000" />
+    </task>
+    <task id="LOCAL-00001" summary="add github action in integration branch">
+      <created>1664275722392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664275722392</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add github action in unit branch">
+      <created>1664277543428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664277543428</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add github action in unit branch">
+      <created>1664277812800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664277812800</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add github action in unit branch">
+      <created>1664277938969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664277938969</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add github action in unit branch">
+      <created>1664278067042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664278067042</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add github action in unit branch">
+      <created>1664278139748</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664278139748</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add github action in unit branch">
+      <created>1664278462859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664278462859</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add github action in unit branch">
+      <created>1664278738277</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664278738277</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add github action in unit branch">
+      <created>1664278777896</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664278777896</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add github action in unit branch">
+      <created>1664278937182</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1664278937182</updated>
+    </task>
+    <task id="LOCAL-00011" summary="set up testing">
+      <created>1664279339967</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1664279339967</updated>
+    </task>
+    <task id="LOCAL-00012" summary="set up testing">
+      <created>1664279375078</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664279375079</updated>
+    </task>
+    <task id="LOCAL-00013" summary="initial commit">
+      <created>1664340558215</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664340558215</updated>
+    </task>
+    <task id="LOCAL-00014" summary="initial commit">
+      <created>1664340904769</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664340904769</updated>
+    </task>
+    <task id="LOCAL-00015" summary="initial commit">
+      <created>1664341007533</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1664341007533</updated>
+    </task>
+    <task id="LOCAL-00016" summary="initial commit">
+      <created>1664341660062</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664341660062</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add integration test">
+      <created>1664343244010</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664343244010</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add integration test">
+      <created>1664343459619</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1664343459619</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add integration test">
+      <created>1664343662808</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664343662808</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add integration test">
+      <created>1664343737447</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664343737447</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add integration test">
+      <created>1664344177451</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1664344177451</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add integration test">
+      <created>1664344727639</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1664344727639</updated>
+    </task>
+    <task id="LOCAL-00023" summary="initial commit">
+      <created>1664344926020</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1664344926020</updated>
+    </task>
+    <task id="LOCAL-00024" summary="initial commit">
+      <created>1664345084904</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1664345084904</updated>
+    </task>
+    <task id="LOCAL-00025" summary="initial commit">
+      <created>1664345138238</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1664345138238</updated>
+    </task>
+    <task id="LOCAL-00026" summary="merge me added">
+      <created>1664349681205</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1664349681205</updated>
+    </task>
+    <task id="LOCAL-00027" summary="merge me added">
+      <created>1664355745538</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1664355745538</updated>
+    </task>
+    <task id="LOCAL-00028" summary="merge me added">
+      <created>1664357385158</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1664357385158</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add github action in integration branch" />
+    <MESSAGE value="add github action in unit branch" />
+    <MESSAGE value="set up testing" />
+    <MESSAGE value="add integration test" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="merge me added" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge me added" />
+  </component>
+</project>

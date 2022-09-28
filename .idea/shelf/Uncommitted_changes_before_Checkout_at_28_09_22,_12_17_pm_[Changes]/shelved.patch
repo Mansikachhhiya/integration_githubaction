@@ -1,0 +1,17 @@
+Index: .github/workflows/node.js.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.github/workflows/node.js.yml b/.github/workflows/node.js.yml
+--- a/.github/workflows/node.js.yml	
++++ b/.github/workflows/node.js.yml	
+@@ -5,7 +5,7 @@
+ 
+ on:
+   push:
+-    branches: [ "feature" ]
++    branches: [ "feature/create-api" ]
+   pull_request:
+     branches: [ "master" ]
+ 
