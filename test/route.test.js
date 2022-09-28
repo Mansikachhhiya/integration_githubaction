@@ -24,7 +24,7 @@ describe("User Api test",()=> {
         expect(res.body).toHaveProperty('users')
     })
     it("Should get user by id " , async ()=>{
-        const res = await request(app).get("/api/users/1")
+        const res = await request(app).get("/api/users/2")
         expect(res.statusCode).toEqual(200)
         expect(res.body).toHaveProperty("Users")
     })

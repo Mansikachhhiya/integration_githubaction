@@ -5,9 +5,9 @@ name: pull request for unit test
 
 on:
   push:
-    branches: [ "feature/unit_test" ]
+    branches: [ "feature/Deleteapi" ]
   pull_request:
-    branches: [ "feature/unit_test" ]
+    branches: [ "develop" ]
 
 jobs:
   build:
